@@ -227,21 +227,130 @@ body {
     }
 
     #buttons {
-        right: 6rem;
-        bottom: 1.7rem;
+        right: 7.9rem;
+        bottom: 0.6rem;
     }
     
     #buttons button {
-        padding: 15px;
+        padding: 12px;
     }
     
     #buttons button:first-child {
-        padding-right: 20px;
+        padding-right: 18px;
     }
     
     
     #buttons button:last-child {
-        padding-left: 20px;
+        padding-left: 18px;
     }
     
+}
+
+@media (max-width: 665px) {
+
+    #card {
+        width: 325px;
+        height: 90%;
+        margin-top: calc(-50%);
+        margin-left: calc(-325px / 2);
+    }
+
+    #quote #phrase {
+        padding-top: 5.7rem;
+        width: 101%;
+        text-align: center;
+        margin-bottom: 0.6rem;
+    }
+
+    #quote #author {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 0.65rem;
+    }
+
+    #quote-icon {
+        width: 20%;
+        left: 5.48rem;
+        top: 8rem;
+    }
+
+    #pictures img {
+        width: 75%;
+        right: 1.5rem;
+        top: -4.1rem;
+    }
+
+    #pictures #back-image {
+        width: 95%;
+        top: -5.25rem !important;
+        left: 0.58rem !important;
+    }
+
+    #curved-image {
+        width: 100%;
+        top: 19rem;
+        left: -0.9rem;
+    }
+
+    #buttons {
+        right: 4.9rem;
+        bottom: 15.3rem;
+    }
+
+    #buttons img {
+        width: 85%;
+    }
+
+    #buttons button {
+        padding: 10px;
+    }
+
+    #buttons button:first-child {
+        padding-right: 15px;
+    }
+    
+    
+    #buttons button:last-child {
+        padding-left: 15px;
+    }
+    
+}
+
+@media (max-width: 335px) {
+    #card {
+        width: 300px;
+        height: 90%;
+        margin-top: calc(-50%);
+        margin-left: -150px;
+    }
+
+    #quote #phrase {
+        padding-top: 3.7rem;
+        width: 90%;
+        margin: 0px auto;
+        margin-bottom: 0.6rem;
+        font-size: 0.65rem;
+    }
+
+    #quote #author {
+        font-size: 0.60rem;
+    }
+
+    #quote-icon {
+        width: 18%;
+        left: 5.15rem;
+        top: 7.92rem;
+    }
+
+    #curved-image {
+        width: 100%;
+        top: 19rem;
+        left: -0.9rem;
+    }
+
+    #buttons {
+        bottom: 16.05rem;
+    }
+
 }
