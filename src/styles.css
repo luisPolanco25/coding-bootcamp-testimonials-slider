@@ -179,6 +179,7 @@ body {
 }
 
 @media (max-width: 845px) {
+    
     html {
         font-size: 24px;
     }
@@ -250,13 +251,13 @@ body {
 
     #card {
         width: 325px;
-        height: 90%;
-        margin-top: calc(-50%);
+        height: 585px;
+        margin-top: calc(-585px / 2);
         margin-left: calc(-325px / 2);
     }
 
     #quote #phrase {
-        padding-top: 5.7rem;
+        padding-top: 15rem;
         width: 101%;
         text-align: center;
         margin-bottom: 0.6rem;
@@ -278,24 +279,24 @@ body {
     #pictures img {
         width: 75%;
         right: 1.5rem;
-        top: -4.1rem;
+        top: 2rem;
     }
 
     #pictures #back-image {
         width: 95%;
-        top: -5.25rem !important;
+        top: 0.82rem !important;
         left: 0.58rem !important;
     }
 
     #curved-image {
         width: 100%;
-        top: 19rem;
-        left: -0.9rem;
+        top: 24.5rem;
+        left: -1.9rem;
     }
 
     #buttons {
         right: 4.9rem;
-        bottom: 15.3rem;
+        bottom: 11.15rem;
     }
 
     #buttons img {
