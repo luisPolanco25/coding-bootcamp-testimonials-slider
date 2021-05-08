@@ -114,3 +114,134 @@ body {
 #buttons button:disabled:hover {
     background-color: #fff;
 }
+
+@media (max-width: 1210px) {
+
+    html {
+        font-size: 28px;
+    }
+    
+    #card {
+        margin-top: -225px;
+        margin-left: -400px;
+        width: 800px;
+        height: 450px;
+    }
+
+    #quote #phrase {
+        width: 69.1%;
+    }
+    img {
+        width: 50%;
+    }
+
+    #pictures img {
+        right: -3.5rem;
+        top: -0.65rem;
+    }
+
+    #quote-icon {
+        width: 12%;
+        left: 3.1rem;
+        top: 1.7rem;
+    }
+
+    #back-image {
+        width: 65%;
+        top: -2.48rem !important;
+        right: -5.8rem !important;
+    }
+
+    #curved-image {
+        width: 65%;
+        top: 15rem;
+        left: -5rem;
+    }
+
+    #buttons {
+        right: 6rem;
+        bottom: 1.7rem;
+    }
+    
+    #buttons button {
+        padding: 15px;
+    }
+    
+    #buttons button:first-child {
+        padding-right: 20px;
+    }
+    
+    
+    #buttons button:last-child {
+        padding-left: 20px;
+    }
+    
+}
+
+@media (max-width: 845px) {
+    html {
+        font-size: 24px;
+    }
+    
+    #card {
+        margin-top: -150px;
+        margin-left: -300px;
+        width: 650px;
+        height: 300px;
+    }
+
+    #quote #phrase {
+        width: 58.3%;
+        font-size: 0.8rem;
+    }
+
+    #quote #author {
+        font-size: 0.60rem
+    }
+
+    img {
+        width: 45%;
+    }
+
+    #pictures img {
+        right: 0.5rem;
+        top: -1.1rem;
+    }
+
+    #quote-icon {
+        width: 11%;
+        left: 2.35rem;
+        top: 0.92rem;
+    }
+
+    #back-image {
+        width: 58%;
+        top: -2.65rem !important;
+        right: -0.95rem !important;
+    }
+
+    #curved-image {
+        width: 60%;
+        top: 12rem;
+        left: -3rem;
+    }
+
+    #buttons {
+        right: 6rem;
+        bottom: 1.7rem;
+    }
+    
+    #buttons button {
+        padding: 15px;
+    }
+    
+    #buttons button:first-child {
+        padding-right: 20px;
+    }
+    
+    
+    #buttons button:last-child {
+        padding-left: 20px;
+    }
+    
+}
