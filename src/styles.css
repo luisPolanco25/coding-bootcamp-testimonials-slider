@@ -107,14 +107,6 @@ body {
     background-color: #eee;
 }
 
-#buttons button:disabled {
-    cursor: default;
-}
-
-#buttons button:disabled:hover {
-    background-color: #fff;
-}
-
 @media (max-width: 1210px) {
 
     html {

@@ -6,20 +6,22 @@ import { SlideContext } from '../context/SlideContext';
 export const CardButton = () => {
 
     const {isTanya, setIsTanya} = useContext(SlideContext);
+
+    const handleChangeSlides = () => {
+        setIsTanya(!isTanya);
+    }
     
     return (
         <div id="buttons">
 
             <button 
-                onClick={() => setIsTanya(true)}
-                disabled={isTanya}
+                onClick={handleChangeSlides}
             >
                 <img src={prev} alt="Previous card" />
             </button>
 
             <button 
-                onClick={() => setIsTanya(false)}
-                disabled={!isTanya}
+                onClick={handleChangeSlides}
             >
                 <img src={next} alt="Next card" />
             </button>
