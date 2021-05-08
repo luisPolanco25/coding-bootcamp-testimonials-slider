@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/coding-bootcamp-testimonials-slider/precache-manifest.fdf4560df652761a316d82403a720b3e.js"
+  "/coding-bootcamp-testimonials-slider/precache-manifest.0c35edadbdaedfdfaa787a4552e7351f.js"
 );
 
 self.addEventListener('message', (event) => {
