@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e56aaf014ae1e39b7a14dee5ef3ddf17",
+    "revision": "780a567447bb1b7dabc40c2f71331242",
     "url": "/coding-bootcamp-testimonials-slider/index.html"
   },
   {
-    "revision": "0256e61b165a3ede7dca",
-    "url": "/coding-bootcamp-testimonials-slider/static/css/main.74d66a08.chunk.css"
+    "revision": "0525cbb1428c789c898d",
+    "url": "/coding-bootcamp-testimonials-slider/static/css/main.6054e78c.chunk.css"
   },
   {
     "revision": "93ce22f5f8ad0ab4aada",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/coding-bootcamp-testimonials-slider/static/js/2.691e8292.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0256e61b165a3ede7dca",
-    "url": "/coding-bootcamp-testimonials-slider/static/js/main.ce8d1136.chunk.js"
+    "revision": "0525cbb1428c789c898d",
+    "url": "/coding-bootcamp-testimonials-slider/static/js/main.9610ab63.chunk.js"
   },
   {
     "revision": "6b8e2ca546cf51ce57ce",
