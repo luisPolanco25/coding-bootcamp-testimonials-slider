@@ -4,4 +4,4 @@ This is my solution for this challenge. It's done with React JS and CSS vanilla 
 
 ## Live preview 
 
-https://luispolanco25.github.io/coding-bootcamp-testimonials-slider/ 
+https://luispolanco25.github.io/coding-bootcamp-testimonials-slider 
