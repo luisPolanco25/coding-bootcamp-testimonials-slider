@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+#card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -325px;
+    margin-left: -600px;
+    width: 1200px;
+    height: 650px;
+    display: flex;
+    align-items: center;
+}
+
+#quote-icon {
+    position: absolute;
+    left: 3rem;
+    top: 3.55rem;
+}
+
+#quote #phrase {
+    line-height: 1.5;
+    font-size: 1rem;
+    width: 52%;
+    font-weight: 300;
+    color: hsl(240, 38%, 20%);
+    margin-bottom: 1rem;
+}
+
+#quote #author {
+    font-size: 0.65rem;
+    color: hsl(240, 38%, 20%);
+    font-weight: 700;
+}
+
+#quote #author span {
+    color: hsl(240, 18%, 77%);
+    font-weight: 300;
+}
+
+#pictures img {
+    position: absolute;
+    z-index: -1;
+    right: 2.75rem;
+    top: 0.4rem;
+}
+
+#author-image {
+    border-radius: 5px;
+}
+
+#back-image {
+    top: -1.6rem !important;
+    right: -0.05rem !important;
+}
+
+#curved-image {
+    position: absolute;
+    top: 17rem;
+    left: -4.5rem;
+}
+
+#buttons {
+    display: flex;
+    position: absolute;
+    right: 14rem;
+    bottom: 2.1rem;
+    border-radius: 50%;
+    box-shadow: 0px 15px 25px #ccc;
+}
+
+#buttons button {
+    background-color: #fff;
+    border: 0;
+    outline: 0;
+    padding: 18px;
+    cursor: pointer;
+    transition: 300ms ease;
+}
+
+#buttons button:first-child {
+    border-radius: 50% 0 0 50%;
+    padding-right: 22px;
+}
+
+
+#buttons button:last-child {
+    border-radius: 0 50% 50% 0;
+    padding-left: 22px;
+}
+
+#buttons button:hover {
+    background-color: #eee;
+}

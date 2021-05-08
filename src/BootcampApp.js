@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import { DisplayedCard } from './components/DisplayedCard';
+import './styles.css';
 
 export const BootcampApp = () => {
     return (
         <div>
-            <h1>BootcampApp</h1>
+            <DisplayedCard />
         </div>
     )
 }
