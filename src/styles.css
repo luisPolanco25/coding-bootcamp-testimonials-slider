@@ -35,7 +35,7 @@ body {
 #quote #phrase {
     line-height: 1.5;
     font-size: 1rem;
-    width: 52%;
+    width: 52.6%;
     font-weight: 300;
     color: hsl(240, 38%, 20%);
     margin-bottom: 1rem;
@@ -105,4 +105,12 @@ body {
 
 #buttons button:hover {
     background-color: #eee;
+}
+
+#buttons button:disabled {
+    cursor: default;
+}
+
+#buttons button:disabled:hover {
+    background-color: #fff;
 }
