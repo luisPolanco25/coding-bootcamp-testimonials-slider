@@ -2,7 +2,7 @@
 
 ![Design preview for the Fylo landing page with two column layout challenge](./src/design/desktop-preview.jpg)
 
-This is my solution for this challenge. It's done with React JS and CSS vanilla using Flexbox. For the slider I created a `context`, which you can see in the context folder, this context provides an state made with `useState hook`.
+This is my solution for this challenge. It's done with React JS and CSS vanilla using Flexbox. For the slider I created a `context`, which you can see in the context folder, this context provides a state made with `useState hook`.
 
 ## Live preview 
 
